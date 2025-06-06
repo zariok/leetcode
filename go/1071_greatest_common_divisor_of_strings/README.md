@@ -36,3 +36,4 @@ Output: ""
 Initial attempt.  Determine if remaining letters after doing a replace, if not accept the current fragment
 
 #### Solution 2:
+Second attempt.  Use slices; iterate over slices with chunk lengths to check for a correct divisor
