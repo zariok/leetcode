@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestTwoSum(t *testing.T) {
+func TestGCDOfStrings(t *testing.T) {
 	str1 := "ABCABC"
 	str2 := "ABC"
 	expected := "ABC"
