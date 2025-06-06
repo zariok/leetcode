@@ -36,3 +36,12 @@ Explanation: An empty string is also valid.
  * 1 <= s.length <= $10^5$
  * `s[i]` is either `'('`, `')'`, or lowercase English letter
 
+
+---
+### My Implementation
+
+#### Solution 1: 
+The first quick solution
+
+#### Solution 2:
+The refactored solution without use of converting runes to strings for comparison
