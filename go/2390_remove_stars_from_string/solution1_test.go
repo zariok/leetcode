@@ -22,3 +22,14 @@ func Test2390_2(t *testing.T) {
 	}
 
 }
+
+func Test2390_3(t *testing.T) {
+	str := "*"
+	expect := ""
+
+	result := removeStars(str)
+	if result != expect {
+		t.Errorf("Expecting %v, got %v", expect, result)
+	}
+
+}
