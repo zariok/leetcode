@@ -29,4 +29,13 @@ s and words[i] consist of only lowercase English letters.
 ```
 
 ## My work
+### Solution 1:
 This is similar to 392 but works over an array of words
+
+### Solution 2: 
+After seeing my submission be in the 1500ms response, I went to see how to make it more
+efficient.  If we keep track of the words and what position letter we are at, we can 
+iterate over the `s` and work any word waiting for that letter.  Now for each letter
+in `s` we work any `word` waiting for that letter and increment it to the next letter
+and store it in the "waiting for".
+
